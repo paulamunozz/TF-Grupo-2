@@ -33,3 +33,6 @@ Instituciones Educativas: Escuelas, universidades, y estudiantes que buscan herr
 Caracteristicas Principales
 
 La aplicación “Eco-Cycle” tiene como objetivo enfrentar esta problemática utilizando tecnologías innovadoras, incluyendo almacenamiento en la nube y APIs. Su estructura incorpora un mapa de calor que señala las zonas contaminadas y facilita el seguimiento en tiempo real de los camiones de recolección, además de proporcionar consejos prácticos y educativos sobre el reciclaje. A diferencia de las soluciones actuales, que se limitan a sitios web o vídeos, “Eco-Cycle” integra diversas funcionalidades en una sola plataforma, ofreciendo un enfoque accesible y completo. Con una interfaz intuitiva y actualizaciones continuas basadas en inteligencia artificial, la aplicación busca fomentar la educación ambiental y convertir el reciclaje en un hábito arraigado en la sociedad.
+
+
+![image](https://github.com/user-attachments/assets/a3486b13-b0de-4988-a624-14a5dbbfad4f)
