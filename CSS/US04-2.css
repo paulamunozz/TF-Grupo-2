@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ECF39E;
+    margin: 0px;
+}
+
+.Menu img.Logo{
+    width: 40px;
+    background-color: #ECF39E;
+    float: left;
+    padding: 9px;
+    margin-left: 10px;
+}
+
+.Menu ul{
+    width: auto;
+    padding-right: 20px;
+}
+
+.Menu ul, ol{
+    list-style: none;   
+}
+
+.Menu ul li a{
+    background-color: #ECF39E;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    height: 40px;
+    align-content: center;
+}
+
+.Menu ul li a img{
+    width: 40px;
+    padding-top: 0px;
+    border-radius: 50%;
+}
+
+.Menu ul li a:hover{
+    background-color: #4F772D;
+    color: white;
+}
+
+.Menu ul >li{
+    float: right;
+}
+
+.Menu ul li ul{
+    display: none;
+    position: absolute;
+}
+
+.Menu ul li:hover > ul{
+    display: grid;
+}
+
+main{
+    box-sizing: border-box;
+    background-color: white;   
+    margin: 40px;
+    margin-top: 0px;
+    float: left;
+}
+
+header{
+    text-align: center;
+    color: white;
+    border-radius: 0px;
+    border-style: none;
+    background: #31572C;
+    padding: 18px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+div nav{
+    float: right;
+    width: 150px;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+div nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div nav ul li{
+    padding: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border-style: none;
+    background: #90A955;
+}
+
+div nav ul li:hover{
+    background: #122A10;
+}
+
+div nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+div.FotoPerfil img{
+    float: left;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+div.Info h2{
+    float: left;
+    padding-top: 50px;
+    padding-left: 35px;
+}
+
+div.Info p{
+    float: center;
+    padding-top: 120px;
+    padding-left: 390px;
+    padding-bottom: 30px;
+}
+
+div.Preferencias{
+    float: center;
+    padding-top: 10px;
+    padding-left: 390px;
+}
+
+div.Direccion{
+    margin: 40px;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}

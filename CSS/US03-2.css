@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ECF39E;
+}
+
+.Menu img.Logo{
+    width: 40px;
+    background-color: #ECF39E;
+    float: left;
+    padding: 9px;
+    margin-left: 10px;
+    padding-right: 1150px;
+}
+
+.Menu ul{
+    width: auto;
+    display: inline-block
+}
+
+.Menu ul, ol{
+    list-style: none;   
+}
+
+.Menu ul li a{
+    background-color: #ECF39E;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    height: 40px;
+    align-content: center;
+}
+
+.Menu ul li a img{
+    width: 40px;
+    padding-top: 0px;
+    border-radius: 50%;
+}
+
+.Menu ul li a:hover{
+    background-color: #4F772D;
+    color: white;
+}
+
+.Menu ul li{
+    float: left;
+}
+
+.Menu ul li ul{
+    display: none;
+    position: absolute;
+}
+
+.Menu ul li:hover > ul{
+    display: grid;
+}
+
+main{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 150px;
+    height: 750px;
+}
+
+.containerR{
+    text-align: center;
+    width: 300px;
+}
+
+.containerR .logo{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.containerR h2{
+    margin-bottom: 20px;
+}
+
+.containerR p{
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+form input{
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form a{
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #90A955;
+    text-decoration: none;
+}
+
+
+.instrucciones{
+    background-color: #31572C;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.instrucciones:hover{
+    background-color: #122A10;
+}
+
+.cancelar{
+    background-color:gray;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.cancelar:hover{
+    background-color: rgb(87, 87, 87);
+}

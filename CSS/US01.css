@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ECF39E;
+}
+
+.Menu img.Logo{
+    width: 40px;
+    background-color: #ECF39E;
+    float: left;
+    padding: 9px;
+    margin-left: 10px;
+}
+
+.Menu ul{
+    width: auto;
+    padding-right: 20px;
+}
+
+.Menu ul, ol{
+    list-style: none;   
+}
+
+.Menu ul li a{
+    background-color: #ECF39E;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    height: 40px;
+    align-content: center;
+}
+
+.Menu ul li a img{
+    width: 40px;
+    padding-top: 0px;
+    border-radius: 50%;
+}
+
+.Menu ul li a:hover{
+    background-color: #4F772D;
+    color: white;
+}
+
+.Menu ul>li{
+    float: right;
+}
+
+.Menu ul li ul{
+    display: none;
+    position: absolute;
+}
+
+.Menu ul li:hover > ul{
+    display: grid;
+}
+
+main{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 150px;
+    height: 750px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.containerR{
+    text-align: center;
+    width: 300px;
+}
+
+.containerR .logo{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.containerR h2{
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+form input{
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.crear-cuenta{
+    background-color: #31572C;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.crear-cuenta:hover{
+    background-color: #122A10;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+p a{
+    color: #90A955;
+    text-decoration: none;
+}

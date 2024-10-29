@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ECF39E;
+}
+
+.Menu img.Logo{
+    width: 40px;
+    background-color: #ECF39E;
+    float: left;
+    padding: 9px;
+    margin-left: 10px;
+}
+
+.Menu ul{
+    width: auto;
+    padding-right: 20px;
+}
+
+.Menu ul, ol{
+    list-style: none;   
+}
+
+.Menu ul li a{
+    background-color: #ECF39E;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    height: 40px;
+    align-content: center;
+}
+
+.Menu ul li a img{
+    width: 40px;
+    padding-top: 0px;
+    border-radius: 50%;
+}
+
+.Menu ul li a:hover{
+    background-color: #4F772D;
+    color: white;
+}
+
+.Menu ul >li{
+    float: right;
+}
+
+.Menu ul li ul{
+    display: none;
+    position: absolute;
+}
+
+.Menu ul li:hover > ul{
+    display: grid;
+}
+
+header{
+    text-align: center;
+    color: white;
+    border-radius: 0px;
+    border-style: none;
+    background: #31572C;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+
+.Residuos nav{
+    background: #90A955;
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.Residuos nav ul{
+    float: none;
+    margin-left: 40px;
+    list-style: none;
+}
+
+.Residuos nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+
+.Residuos nav ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 0 70px;
+    border-radius: 0;
+    border-width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.Residuos nav ul li a.A{
+    background: #122A10
+}
+
+.Residuos li a:hover{
+    background: #4F772D;
+}
+
+.Info h2{
+    float: left;
+    background: white;
+    border-radius: 0 5px 5px 0 ;
+    padding: 10px 100px;
+    margin-top: 50px;
+}
+
+.Info img{
+    float: right;
+    width: 25%;
+    margin: 35px 100px;
+}
+
+.Info p{
+    float: left;
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: large;
+}
+
+.Consejos{
+    float: right;
+    background: white;
+    border-radius: 0;
+    padding: 10px 50px;
+    padding-bottom: 23px;
+    width: 60%;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.Consejos h2{
+    float: left;
+    margin-top: 20px;
+}
+
+.Consejos div.A{
+    width: 97%;
+    margin-top: 80px;
+}
+
+.Consejos h4{
+    margin-top: 20px;
+}
+
+.Consejos div.B{
+    width: 97%;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.Consejos p{
+    margin-top: 20px;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.Imagenes img{
+    float: left;
+    width: 34%;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}

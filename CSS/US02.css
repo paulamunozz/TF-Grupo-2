@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ECF39E;
+}
+
+.Menu img.Logo{
+    width: 40px;
+    background-color: #ECF39E;
+    float: left;
+    padding: 9px;
+    margin-left: 10px;
+}
+
+.Menu ul{
+    width: auto;
+    padding-right: 20px;
+}
+
+.Menu ul, ol{
+    list-style: none;   
+}
+
+.Menu ul li a{
+    background-color: #ECF39E;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    height: 40px;
+    align-content: center;
+}
+
+.Menu ul li a img{
+    width: 40px;
+    padding-top: 0px;
+    border-radius: 50%;
+}
+
+.Menu ul li a:hover{
+    background-color: #4F772D;
+    color: white;
+}
+
+.Menu ul >li{
+    float: right;
+}
+
+.Menu ul li ul{
+    display: none;
+    position: absolute;
+}
+
+.Menu ul li:hover > ul{
+    display: grid;
+}
+
+.conoce .conoceimg {
+    width: 100%;
+}
+
+.conoce .boton {
+    position: absolute;
+    bottom: 15%;
+    left: 47%;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conoce .boton:hover {
+    background-color: #4F772D;
+    color: white;
+}
+
+.about-us {
+    color: white;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 300%;
+    background-color: #4F772D;
+    height: 70px;
+    width: 100%;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-content: center;
+}
+
+.about-us .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.about-us .logo {
+    width: 300px;
+    height: auto;
+    padding-right: 100px;
+}
+
+.about-us .about-content p {
+    font-size: 160%;
+    line-height: 40px;
+    max-width: 600px;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.objetivo {
+    position: absolute;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    color: white;
+    background-color: #4F772D;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.objetivo p {
+    max-width: 60%;
+    font-size: 160%;
+    padding-left: 20px;
+    text-align: left;
+    color: white;
+    line-height: 40px;
+}
+
+.objetivoimg {
+    width: 400px;
+    height: auto;
+    padding-left: 50px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
